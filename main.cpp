@@ -178,7 +178,7 @@ void number_3_6() {
 }
 
 void number_3_7() {
-
+	cout << "12";
 }
 
 void number_4() {
