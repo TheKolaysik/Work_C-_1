@@ -178,7 +178,16 @@ void number_3_6() {
 }
 
 void number_3_7() {
-	cout << "12";
+	int n, i, s, l = 0;
+	cout << "Enter n > ";
+	cin >> n;
+	for (i = 1; i <= n; i++) {
+		s = pow(i, 3) - 3 * i * pow(n, 2) + n;
+		if ((s * 3) % 2 == 0) {
+			l += s;
+		}
+	}
+	cout << "Result: " << l;
 }
 
 void number_4() {
